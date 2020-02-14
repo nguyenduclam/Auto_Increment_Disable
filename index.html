@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Coordinate and ID</title>
+    <!--<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/esri-main.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.13/esri/css/main.css">-->
+    <link rel="stylesheet" type="text/css" href="css/map_style.css">
+    <link rel="stylesheet" type="text/css" href="css/leaflet.css">
+
+    <script src="js/jquery-1.11.1.js"></script>
+    <!--<script src="js/esri-dojo.js"></script>-->
+    <script src="js/leaflet.js"></script>
+    <script src="js/leaflet-providers.js"></script>
+</head>
+<body>
+<div id="main_form">
+    <form method="POST" action="service/process.php">
+        Coordinates
+        <input type="number" name="lat" id="lat" placeholder="Vĩ độ" step="0.000001" required/>
+        <input type="number" name="lng" id="lng" placeholder="Kinh độ" step="0.000001" required/>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<br>
+<div id="mymap"></div>
+<script src="js/map_script.js"></script>
+</body>
+</html>
