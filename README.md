@@ -1,7 +1,8 @@
 # Không sử dụng Auto Increment trong PHP để update ID
 
 ### Idea: 
-Đếm số hàng trong database trước khi add thêm dữ liệu. Nếu dữ liệu chưa có hàng nào thì sẽ bắt đầu ID là 1, nếu như đã có rồi thì lấy biến đếm số hàng hồi nãy cộng thêm vào
+Đếm số hàng trong database trước khi add thêm dữ liệu. Nếu dữ liệu chưa có hàng nào thì sẽ bắt đầu ID là 1, 
+nếu như đã có rồi thì lấy biến đếm số hàng hồi nãy cộng thêm vào
 
 ### Ngôn ngữ lập trình sử dụng
 PHP, MySQL
